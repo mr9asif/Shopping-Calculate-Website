@@ -1,0 +1,21 @@
+/* .form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+.home{
+    border: 2px solid orange;
+    padding: 4px ;
+    background-color: azure;
+    border-radius: 8px;
+}
+.home a{
+    color:rgb(6, 26, 44);
+    font-size: 15px;
+    text-decoration: none;
+    padding: 10px;
+}
+.home:hover{
+    background-color: orange;
+}

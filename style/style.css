@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url(../image/shopping.png);
+    background-size:cover; */
+    background-color: cornsilk;
+
+}
+.nav{
+    width: 90%;
+     display: flex;
+    justify-content:space-evenly;
+    align-items:center; 
+    margin-top: 100px;
+    margin: auto;
+    padding-top: 40px;
+    
+}
+ul li{
+    display: inline;
+    list-style: none;
+    text-decoration: none;
+    font-size: 30px;
+    border: 2px solid tomato;
+    border-radius: 8px;
+    background-color: azure;
+    padding: 8px;
+    margin: 40px;
+    margin-top: 100px;
+}
+li a{
+    display:inline;
+    text-decoration: none;
+}
+li:hover{
+    color:white;
+    background-color: orange;
+}
+.container{
+    width: 60%;
+    
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:10px;
+  margin-left: 20px;
+  padding-bottom: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    /* border: 2px solid orange; */
+    width: 250px;
+    height: 250px;
+    background-color: azure;
+    box-shadow: 20px;
+}
+ img{
+    border:2px solid;
+    padding: 5px;
+    border-radius: 7px;
+    width: 100px;
+}
+.btn{
+    background-color: blue;
+    color:azure;
+    font-size: 15px;
+    border: 2px solid orange;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: orangered;
+}
+h2 {
+    color:orangered;
+}h3{
+    color:brown
+}
+h1{
+    color:orangered;
+     margin-left: 40px;
+     margin: 20px;
+    
+}
+#head{
+    background-color: azure;
+    padding: 4px;
+    border: 2px solid orange;
+    border-radius: 7px;
+}
+ .form{
+    /* border:2px solid orange; */
+    width: 30%;
+    height: 100%;
+    background-color: rgb(220, 220, 132);
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.in{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-left: 120px;
+}
+#in{
+    display: inline;
+}
+.main-container{
+    display: flex;
+}
+ .list{
+    margin: 40px;
+    margin-bottom: 80px;
+    width: 300px;
+} 
+input{
+    padding: 5px;
+    border: 2px solid orange;
+
+}
+.offer-btn{
+    width: 12vw;
+    margin:10px 0px
+}
+/* responsive screen */
+@media  screen and (max-width: 470px) {
+    .container{
+       display: grid;
+       grid-template-columns:repeat(1,1fr);
+       
+    }
+    .form{
+        display:none;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+        /* border: 2px solid orange; */
+        width: 300px;
+        height: 300px;
+        background-color: azure;
+        box-shadow: 20px;
+    }
+    ul li{
+        display: inline;
+        list-style: none;
+        text-decoration: none;
+        font-size: 20px;
+        border: 2px solid tomato;
+        border-radius: 8px;
+        background-color: azure;
+        padding: 3px;
+        margin: 20px;
+        margin-top: 30px;
+    }
+    li:hover{
+        color:white;
+        background-color: orange;
+    }
+    .form2{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 98%;
+
+    }
+    .in{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap:10px;
+       
+    }
+}
